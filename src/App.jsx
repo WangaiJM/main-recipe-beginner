@@ -1,7 +1,11 @@
+import Banner from "./components/Banner/Banner"
+import Header from "./components/Header/Header"
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <Banner/>
+      <Header/>
     </>
   )
 }
